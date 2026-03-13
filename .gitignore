@@ -1,0 +1,4 @@
+*.pickle
+logs/
+NAME/
+.ipynb_checkpoints/
