@@ -1,12 +1,12 @@
 # Environment Configuration
 
-# Python: 3.14.3
-# Jupyter Notebook: 7.5.5
+# Python: 3.12
+# Jupyter Notebook: 7.3.2
 # OS: Windows 11
 
 # Core Dependencies
-numpy==2.2.3             # Numerical computing
-matplotlib==3.10.1       # Plotting and visualization
+numpy==2.1.3             # Numerical computing
+matplotlib==3.10.0       # Plotting and visualization
 opencv-python==4.11.0.86 # Image processing
 tqdm==4.67.1             # Progress bars
 tensorflow==2.18.0       # Machine learning framework
