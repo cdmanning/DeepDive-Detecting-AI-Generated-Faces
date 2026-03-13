@@ -42,7 +42,7 @@ The goal of this project was to engineer a Convolutional Neural Network (CNN) mo
     - Human Dataset: [CelebA Dataset](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)
     - AI-Generated Dataset: [1M Fake Faces Dataset](https://archive.org/details/1mFakeFaces)
 
-6. Run `start.bat` to initialize the Jupyter Notebook environment and begin training the model.
+6. Run `Tensorboard.bat` to run the Jupyter Notebook environment and begin training the model.
 
 ## ⚖️ Licensing
 - All source code in this repository is **All Rights Reserved**.
