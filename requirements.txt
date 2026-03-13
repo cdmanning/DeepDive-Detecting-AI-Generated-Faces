@@ -1,7 +1,6 @@
 # Environment Configuration
 
 # Python: 3.12
-# Jupyter Notebook: 7.3.2
 # OS: Windows 11
 
 # Core Dependencies
@@ -10,3 +9,6 @@ matplotlib==3.10.0       # Plotting and visualization
 opencv-python==4.11.0.86 # Image processing
 tqdm==4.67.1             # Progress bars
 tensorflow==2.18.0       # Machine learning framework
+tensorboard==2.18.0      # Visualization tool for model training
+python-dotenv==1.0.1     # Enviroment Variable Management
+notebook==7.3.2          # Development IDE

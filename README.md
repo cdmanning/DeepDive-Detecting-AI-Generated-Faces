@@ -2,33 +2,46 @@
 
 The goal of this project was to engineer a Convolutional Neural Network (CNN) model for image classification between datasets consisting of authentic human portraits and AI-generated faces (StyleGAN). Leveraging Python's frameworks for machine learning such as TensorFlow and OpenCV I developed a Jupyter Notebook pipeline for image preprocessing, data normalization, feature extraction, and model validation, achieving high-precision classification.
 
-
-<h3>🖼️ Research Poster</h3>
-
-[![Poster Preview](documentation/ResearchPoster.png)](documentation/ResearchPoster.pdf)
-<br><sub><i>Click the image above to view the full PDF.</i></sub>
+<details>
+  <summary>🖼️ <b>View Research Poster</b></summary>
+  <br>
   
-
-
+  [![Poster Preview](documentation/ResearchPoster.png)](documentation/ResearchPoster.pdf)
+  <br>
+  <sub><i>Click the image above to view the full PDF.</i></sub>
+</details>
+  
 ## 📂 Project Structure
 
 ```
 /DeepDive-Detecting-AI-Generated-Faces
-├── data/              # Placeholder for image datasets
-├── documentation/     # Contains the published research poster
-├── models/            # Directory for pre-trained models.
-├── notebooks/         # Jupyter Notebooks for data processing and training
-├── .env.example       # Template for environment configuration
-├── .gitignore         # Defines files to be excluded from version control
-├── README.md          # Project overview and documentation
-├── requirements.txt   # List of Python dependencies
-└── start.bat          # Utility script to launch the Jupyter environment
+├── data/               # Image datasets (Human/AI)
+├── documentation/      # Research poster & icon files
+├── models/             # Trained .keras models
+├── notebooks/          # Data processing & training scripts
+├── .env.example        # Configuration template
+├── .gitignore          # Version control exclusions
+├── README.md           # Project documentation
+├── requirements.txt    # Python library dependencies
+├── setup.bat           # Automated environment setup
+└── start.bat           # Notebook launcher
 ```
 
 ## 🚀 Getting Started
-1. This model was trained on the [CelebA Dataset](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset) and the [1M Fake Faces Dataset](https://archive.org/details/1mFakeFaces). Download these datasets to your local machine before running the notebooks.
-2. Ensure you have Jupyter and TensorFlow installed.
-3. Use the `start.bat` script to initialize your local environment.
+
+1. Clone the repository using: `git clone https://github.com/cdmanning/DeepDive-Detecting-AI-Generated-Faces.git`
+
+2. Ensure you have [Python 3.12](https://www.python.org/downloads/) installed and correctly added to your system PATH.
+
+3. Run `setup.bat` to automatically install all required Python libraries and generate the necessary project folders.
+
+4. Rename the `.env.example` file to `.env` and verify the `DATADIR` path points to your target dataset location.
+
+5. Download the image sets and place them into the `./data/Human` and `./data/AI` directories:
+    - Human Dataset: [CelebA Dataset](https://www.kaggle.com/datasets/jessicali9530/celeba-dataset)
+    - AI-Generated Dataset: [1M Fake Faces Dataset](https://archive.org/details/1mFakeFaces)
+
+6. Run `start.bat` to initialize the Jupyter Notebook environment and begin training the model.
 
 ## ⚖️ Licensing
 - All source code in this repository is **All Rights Reserved**.
@@ -36,4 +49,3 @@ The goal of this project was to engineer a Convolutional Neural Network (CNN) mo
 
 ##
 *Developed as part of the 2023 UNG Annual Research Conference.*
-
