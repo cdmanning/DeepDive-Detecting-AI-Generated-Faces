@@ -1,6 +1,6 @@
 # 🔍 Deep Dive: Detecting AI-Generated Faces
 
-The goal of this project was to engineer a Convolutional Neural Network (CNN) model for image classification between datasets consisting of authentic human portraits and AI-generated faces (StyleGAN). Leveraging Python's machine learning frameworks such as TensorFlow and OpenCV I developed a Jupyter Notebook pipeline for image preprocessing, data normalization, feature extraction, and model validation, achieving high-precision classification.
+The goal of this project was to engineer a Convolutional Neural Network (CNN) model for image classification between datasets consisting of authentic human portraits and AI-generated faces (StyleGAN). Leveraging Python's frameworks for machine learning such as TensorFlow and OpenCV I developed a Jupyter Notebook pipeline for image preprocessing, data normalization, feature extraction, and model validation, achieving high-precision classification.
 
 
 <h3>🖼️ Research Poster</h3>
