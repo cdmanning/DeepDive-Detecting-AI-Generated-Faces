@@ -22,9 +22,10 @@ The goal of this project was to engineer a Convolutional Neural Network (CNN) mo
 ├── .env.example        # Configuration template
 ├── .gitignore          # Version control exclusions
 ├── README.md           # Project documentation
+├── Tensorboard.bat     # Opens Tensorboard interface
+├── Tensorflow.bat      # Opens Tensorflow interface
 ├── requirements.txt    # Python library dependencies
-├── setup.bat           # Automated environment setup
-└── start.bat           # Notebook launcher
+└── setup.bat           # Automated environment setup
 ```
 
 ## 🚀 Getting Started
