@@ -2,3 +2,4 @@
 logs/
 NAME/
 .ipynb_checkpoints/
+.env
